@@ -1,0 +1,101 @@
+# ========================================
+# 🐍 Python
+# ========================================
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter (por si usas notebooks)
+.ipynb_checkpoints/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ========================================
+# 🧪 Test / Coverage / Build artefacts
+# ========================================
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.cache/
+pytest_cache/
+.mypy_cache/
+.dmypy.json
+.pytest_cache/
+
+# ========================================
+# 💾 Configuración / Entorno
+# ========================================
+# Tus variables privadas
+.env
+.env.*
+!*.example  # excepto .env.example que sí se versiona
+
+# ========================================
+# 🧠 DeepBlockAI Custom Rules
+# ========================================
+
+# Archivos personales generados por ChatGPT / script
+project_summary_*.txt
+
+# Logs
+*.log
+logs/
+storage/logs/
+storage/debug/
+
+# JSON procesados (se generan dinámicamente)
+storage/processed/
+storage/raw/
+storage/reports/
+
+# Dashboard synced data (nunca debe ir en GitHub)
+../deepblockai-dashboard/data/*.json
+../deepblockai-dashboard/data/
+
+# ========================================
+# 🧩 Sistema / IDE / OS
+# ========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# PyCharm / Jetbrains
+.idea/
+*.iml
+
+# ========================================
+# 🔒 Seguridad extra
+# ========================================
+# Claves, tokens, backups, dumps
+*.key
+*.pem
+*.crt
+*.bak
+*~
+
+
+# ========================================
+# ✔ FIN
+# ========================================
+
